@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<BorderPane fx:id="mainThemplate" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.escenas.MainControler">
+   <left>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="btnEscena01" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handlerBtnEscena1" text="Escena 1" />
+            <Button fx:id="btnEscena2" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleBtnEscena2" text="Escena 2" />
+            <Button fx:id="BtnSalir" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handlerBtnSalir" text="salir" />
+         </children>
+      </VBox>
+   </left>
+</BorderPane>
